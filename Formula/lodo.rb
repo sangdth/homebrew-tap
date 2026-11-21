@@ -1,9 +1,9 @@
 class Lodo < Formula
   desc "Manage .lodo and custom local domains on macOS via dnsmasq and Caddy"
   homepage "https://github.com/sangdth/lodo"
-  url "https://github.com/sangdth/lodo/releases/download/v0.1.3/lodo-v0.1.3-aarch64-apple-darwin.tar.gz"
-  version "0.1.3"
-  sha256 "24a741fc9d0e28c584912cf3e40b52123ec0e659b6e14abdeb4eb86b58fa9b4b"
+  url "https://github.com/sangdth/lodo/releases/download/v0.1.4/lodo-v0.1.4-aarch64-apple-darwin.tar.gz"
+  version "0.1.4"
+  sha256 "502e0c7e838d6e1ec8140cb9b6292222782292a813cad3db08fe186b3e522745"
   depends_on :macos
   depends_on arch: :arm64
   depends_on "dnsmasq"
